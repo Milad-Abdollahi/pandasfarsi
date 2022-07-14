@@ -4,7 +4,7 @@ working with a csv files that includes some farsi comments
 choosing the right text encoder is important when reading farsi/arabic csv files
 
 to use the pandas.read_csv() function do it like this:
-data_frame = pd.read_csv('farsi_comments 2.csv', encoding = "cp1256")
+data_frame = pd.read_csv('name_of_the_file.csv', encoding = "cp1256")
 
 for the list of all encoders visit : https://docs.python.org/3/library/codecs.html#standard-encodings
 
